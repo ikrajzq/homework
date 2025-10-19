@@ -1,0 +1,31 @@
+.mainblock{
+    max-height: 500px;
+    background-color: #e6b9d8;
+    margin:10px 10px 0px 10px;
+    overflow: auto;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+.block{
+    margin: 10px 10px 15px 5px;
+    background:#948427;
+    display: inline-block;
+    max-width: 290px;
+    min-height: 300px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    box-shadow: inset 0 0 5px #000;
+}
+h2{
+    box-sizing: border-box;
+    padding: 20px 0 20px 25px;
+}
+.block1{
+    box-sizing: border-box;
+    padding: 00 20px 25px;
+    font-size:16px;
+    width: 250px;
+    text-align: left;
+    
+}

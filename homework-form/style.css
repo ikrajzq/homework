@@ -1,0 +1,32 @@
+form{
+    margin: 40px 0 0 40px;
+    display: block;
+    max-width: 300px;
+    
+}
+fieldset{
+    border-radius: 5%;
+}
+legend{
+    padding: 5px 0;
+}
+
+textarea{
+    resize: vertical;
+    max-height: 100px;
+    min-height: 30px;
+    display:block;
+    margin-bottom: 5px;
+}
+
+.accept{
+    cursor:pointer;
+}
+
+.rules{
+    display: block;
+    margin-bottom: 5px;
+}
+.button{
+    cursor: pointer;
+}

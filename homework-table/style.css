@@ -1,0 +1,36 @@
+.calendar{
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.month-header{
+    
+    padding: 10px;
+    color: #333;
+    border: 1px solid #112030d5;
+    border-bottom: none;
+}
+
+.calendar th{
+    background-color: #f8f9fa;
+    border: 1px solid #112030d5;
+    padding: 10px 8px;
+    text-align: center;
+    font-weight: normal;
+    color: #6c757d;
+}
+.calendar th.weekend{
+    color: red;
+}
+.calendar td{
+    border: 1px solid #112030d5;
+    padding: 10px 8px;
+    text-align: center;
+    width: 14.28%;
+
+}
+
+.calendar td.weekend{
+    color: red;
+}

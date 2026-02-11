@@ -1,3 +1,4 @@
+
 html {
   font-family: Ubuntu, sans-serif;
   font-weight: 400;
@@ -54,6 +55,33 @@ button {
   color: #535755;
 }
 
+.text--sub {
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #858e8a;
+}
+
+.title {
+  font-family: Oswald, sans-serif;
+  font-weight: 600;
+  line-height: 115%;
+  text-transform: uppercase;
+  color: #2c332f;
+}
+
+.title--large {
+  max-width: 596px;
+  margin-bottom: 40px;
+  font-size: 48px;
+}
+
+.title--medium {
+  font-weight: 500;
+  font-size: 24px;
+}
+
 .button {
   display: inline-block;
   padding: 19px 32px;
@@ -85,43 +113,6 @@ button.button:disabled {
   margin-bottom: 140px;
 }
 
-.title-large {
-  max-width: 596px;
-  margin-bottom: 40px;
-  font-family: Oswald, sans-serif;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 115%;
-  text-transform: uppercase;
-  color: #2c332f;
-}
-
-.title-medium {
-  font-family: Oswald, sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 115%;
-  text-transform: uppercase;
-  color: #2c332f;
-}
-
-.text-sub {
-  font-weight: 300;
-  font-size: 14px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #858e8a;
-}
-
-.decor::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  width: calc(50% - 250px);
-  height: 48px;
-  background: url("../images/decor-icon.svg") repeat-x;
-}
-
 a:focus-visible,
 button:focus-visible,
 summary:focus-visible {
@@ -140,17 +131,17 @@ summary:focus-visible {
     max-width: 576px;
   }
 
-  .title-large {
+  .title--large {
     font-size: 40px;
     margin-bottom: 30px;
   }
 
-  .home-page .title-large {
+  .home-page .title--large {
     max-width: inherit;
     text-align: center;
   }
 
-  .title-medium {
+  .title--medium {
     font-size: 22px;
   }
 }
@@ -160,11 +151,11 @@ summary:focus-visible {
     margin-bottom: 80px;
   }
 
-  .title-large {
+  .title--large {
     font-size: 32px;
   }
 
-  .title-medium {
+  .title--medium {
     font-size: 18px;
   }
 }
